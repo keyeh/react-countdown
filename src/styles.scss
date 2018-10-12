@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.countdown {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.numberbox {
+  display: inline-block;
+  text-align: center;
+  border: 1px #d7d7d7 solid;
+  border-radius: 5px;
+  margin: 7px;
+  padding: 15px;
+  width: 6em;
+
+  .number {
+    font-size: 1.5em;
+  }
+  .label {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #9e9e9e;
+  }
+}
+
+/* Text meant only for screen readers. */
+.screenreader-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

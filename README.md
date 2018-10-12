@@ -5,6 +5,9 @@ A configurable and accessible React countdown component that supports ARIA-live 
 
 ## Usage
 ``` <Countdown endAt={new Date("12/31/2018")} aria-live="polite" aria-label="count down 1" />```
+
+https://codesandbox.io/s/8kjn636pq0
+
 ## Props
 ```
 endAt: instanceOf(Date).isRequired,
